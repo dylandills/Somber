@@ -369,9 +369,16 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  font-family: "Avenir Next" !important; }
+
 /*Splash Page*/
 button {
   font-size: 1.5em; }
+
+/*HomePage*/
+nav {
+  font-size: 2em; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -403,5 +410,27 @@ button {
 button:hover {
   -webkit-filter: blur(0);
   filter: blur(0); }
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../images/coveredbanner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24vh; }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 2em; }
+    nav ul a {
+      padding: 1rem 2rem; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.blurry-text {
+  text-shadow: 0 0 8px white;
+  color: transparent; }
 
 /*# sourceMappingURL=main.css.map */
