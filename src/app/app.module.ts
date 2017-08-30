@@ -8,13 +8,19 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutComponent } from './about/about.component';
+import { MerchComponent } from './merch/merch.component';
+import { TourComponent } from './tour/tour.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     HomePageComponent,
-    AboutComponent
+    AboutComponent,
+    MerchComponent,
+    TourComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
