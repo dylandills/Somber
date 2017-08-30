@@ -383,6 +383,32 @@ nav {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+body {
+  background-color: #343034; }
+
+/*Nav*/
+nav {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../images/coveredbanner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24vh; }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 2em; }
+    nav ul a {
+      padding: 1rem 2rem; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.blurry-text {
+  text-shadow: 0 0 8px white;
+  color: transparent; }
+
 .splash {
   background-image: url("../../images/night-divorce.jpg");
   background-size: cover;
@@ -410,27 +436,5 @@ button {
 button:hover {
   -webkit-filter: blur(0);
   filter: blur(0); }
-
-nav {
-  display: flex;
-  justify-content: center;
-  background-image: url("../../images/coveredbanner.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 24vh; }
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin-top: 2em; }
-    nav ul a {
-      padding: 1rem 2rem; }
-
-a {
-  text-decoration: none;
-  color: #fff; }
-
-.blurry-text {
-  text-shadow: 0 0 8px white;
-  color: transparent; }
 
 /*# sourceMappingURL=main.css.map */
