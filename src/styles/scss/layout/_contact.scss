@@ -1,0 +1,8 @@
+form {
+  display: flex;
+  justify-content: center;
+  border: 5px solid blue;
+}
+input, textarea, .submit {
+  flex-direction: row;
+}

@@ -436,7 +436,7 @@ a {
   justify-content: center; }
 
 /*Button Styling*/
-button {
+.btn {
   margin-top: 15em;
   background: none;
   text-transform: uppercase;
@@ -446,9 +446,39 @@ button {
   -webkit-filter: blur(2px);
   -webkit-filter: blur(2px);
   filter: blur(2px);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out; }
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  /* Firefox */
+  -webkit-animation: fadein 5s;
+  /* Safari and Chrome */
+  -o-animation: fadein 5s;
+  /* Opera */ }
 
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 button:hover {
   -webkit-filter: blur(0);
   filter: blur(0); }
@@ -475,9 +505,6 @@ footer {
     list-style: none;
     margin-top: 2em; }
     footer ul a {
-      padding: 1rem 2rem; }
-
-.fa {
-  margin-right: 2em; }
+      padding: 3em; }
 
 /*# sourceMappingURL=main.css.map */
