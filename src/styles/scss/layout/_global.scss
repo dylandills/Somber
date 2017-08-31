@@ -1,8 +1,17 @@
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
   background-color: #343034;
+}
+
+h1 {
+  text-shadow: 0 0 3px white;
+  color: transparent;
+}
+a:hover {
+  color: #5D6280;
 }
 /*Nav*/
 nav {

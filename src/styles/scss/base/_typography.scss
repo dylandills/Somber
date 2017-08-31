@@ -1,11 +1,21 @@
+/*Global*/
 body {
   font-family: "Avenir Next" !important;
+  color:#fff;
+}
+nav {
+  font-size: 2em;
+}
+.navbar-brand {
+  font-size: 2em;
 }
 /*Splash Page*/
 button {
   font-size: 1.5em;
 }
 /*HomePage*/
-nav {
-  font-size: 2em;
+
+/*About*/
+.about-container p {
+  font-size: 1.2em;
 }

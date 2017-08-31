@@ -369,22 +369,38 @@ template {
 [hidden] {
   display: none; }
 
+/*Global*/
 body {
-  font-family: "Avenir Next" !important; }
+  font-family: "Avenir Next" !important;
+  color: #fff; }
+
+nav {
+  font-size: 2em; }
+
+.navbar-brand {
+  font-size: 2em; }
 
 /*Splash Page*/
 button {
   font-size: 1.5em; }
 
 /*HomePage*/
-nav {
-  font-size: 2em; }
+/*About*/
+.about-container p {
+  font-size: 1.2em; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
 body {
   background-color: #343034; }
+
+h1 {
+  text-shadow: 0 0 3px white;
+  color: transparent; }
+
+a:hover {
+  color: #5D6280; }
 
 /*Nav*/
 nav {
@@ -436,5 +452,32 @@ button {
 button:hover {
   -webkit-filter: blur(0);
   filter: blur(0); }
+
+.out-now {
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto; }
+
+.about-container {
+  display: flex;
+  margin-top: 3em; }
+
+.image {
+  margin-right: 2em; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #343034;
+  height: 10vh; }
+  footer ul {
+    display: flex;
+    list-style: none;
+    margin-top: 2em; }
+    footer ul a {
+      padding: 1rem 2rem; }
+
+.fa {
+  margin-right: 2em; }
 
 /*# sourceMappingURL=main.css.map */
