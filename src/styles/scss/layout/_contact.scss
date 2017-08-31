@@ -1,8 +1,40 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 form {
   display: flex;
   justify-content: center;
-  border: 5px solid blue;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-left: 3em;
 }
-input, textarea, .submit {
-  flex-direction: row;
+
+input {
+  margin: auto;
+  margin-top: 1em;
+  height: 5vh;
+  width: 100vh;
+}
+
+textarea {
+  margin: auto;
+  margin-top: 1em;
+  height: 20vh;
+  width: 100vh;
+}
+
+.send {
+  margin: auto;
+  margin-top: 1em;
+  height: 5vh;
+  width: 20vh;
+  background: none;
+  text-transform: uppercase;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  -webkit-filter: blur(1px);
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
 }
