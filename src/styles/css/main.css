@@ -510,13 +510,13 @@ input {
   margin: auto;
   margin-top: 1em;
   height: 5vh;
-  width: 100vh; }
+  width: 80vh; }
 
 textarea {
   margin: auto;
   margin-top: 1em;
-  height: 20vh;
-  width: 100vh; }
+  height: 40vh;
+  width: 80vh; }
 
 .send {
   margin: auto;
